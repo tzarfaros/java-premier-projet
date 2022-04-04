@@ -12,6 +12,8 @@ import org.humanbboster.myproject.ordi.Computer;
 import org.humanbboster.myproject.ordi.Printer;
 import org.humanbboster.myproject.ordi.Repartitor;
 import org.humanbboster.myproject.voiture.Voiture;
+import org.humanbboster.myproject.zoo.Cheval;
+import org.humanbboster.myproject.zoo.Tigre;
 
 import javax.print.DocFlavor;
 import java.util.*;
@@ -20,7 +22,14 @@ import java.util.stream.Collectors;
 public class Entry {
 
     public static void main(String[] args) {    //main
-        exo11();
+        exo12();
+    }
+
+    public static void exo12() {
+        Cheval c1 = new Cheval();
+        Tigre t1 = new Tigre();
+        c1.manger();
+        t1.manger();
     }
 
     public static void exo11() {
